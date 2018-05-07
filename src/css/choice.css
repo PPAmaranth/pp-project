@@ -1,0 +1,25 @@
+.wrapper .content{
+	width: 1230px;
+	height: 628px;
+	background-image: url(../image/choice/bg.png);
+	position: relative;
+	margin-bottom: 42px;
+}
+.wrapper .content .btn1{
+	position: absolute;
+	top: 202px;
+	left: 407px;
+	width: 356px;
+	height: 93px;
+	background-image: url(../image/choice/btn1.png);
+	cursor: pointer;
+}
+.wrapper .content .btn2{
+	position: absolute;
+	top: 336px;
+	left: 407px;
+	width: 360px;
+	height: 94px;
+	background-image: url(../image/choice/btn2.png);
+	cursor: pointer;
+}

@@ -1,0 +1,99 @@
+.loading_window,.alert_window{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    display: none;
+}
+/*动画css*/
+.loading{
+    width:100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+.loading .dh{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+}
+.loading .dh .leaves{
+    height: 0;
+    width:4px;
+    border-top: 16px solid #fc9f8f;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+    position: absolute;
+    left: 27px;
+    top: 0px;
+}
+.loading .f2{
+    transform: rotate(30deg);
+}
+.loading .f2 .leaves{
+    border-top: 16px solid #f67560;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+}
+.loading .f3{
+    transform: rotate(60deg);
+}
+.loading .f3 .leaves{
+    border-top: 16px solid #f04e33;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+}
+.loading .f4 .leaves{
+    border-top: 16px solid #dd391d;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+}
+.loading .f4{
+    transform: rotate(90deg);
+}
+.loading .sc{
+    width:100px;
+    height: 100px;
+    animation:scc 0.8s infinite linear;
+    position: absolute;
+    transform-origin: center;/*绕轴心*/
+}
+@keyframes scc{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+/*alert*/
+.alert_window .alert{
+    width:300px;
+    height: 150px;
+    background: #fff;
+    border:1px solid #87ceeb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+}
+.alert_window .text{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom:30px;
+}
+.alert_window button{
+    width: 50px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #a1a1a1;
+    position: absolute;
+    bottom:10px;
+    left: 50%;
+    transform:translateX(-50%) translateY(-50%);
+}

@@ -1,0 +1,80 @@
+.wrapper .content{
+	width: 1230px;
+	height: 660px;
+}
+.wrapper .content .title{
+	width:100%;
+	height: 35px;
+	background-color: #eaeaea;
+}
+.wrapper .content .title .text{
+	margin-left: 242px;
+	font-size: 16px;
+	line-height: 35px;
+	color:#8b8b8b;
+}
+.wrapper .content .left .img1{
+	width: 326px;
+	height:328px;
+	background-image: url(../image/renew/img1.png);
+	margin-left: 105px;
+	margin-top: 115px;
+}
+.wrapper .content .right{
+	margin-left: 130px;
+}
+.wrapper .content .right .text1{
+	width: 600px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+	border-bottom: 1px dotted #b1b1b1;
+	margin-top:50px;
+}
+.wrapper .content .right .text2{
+	width: 600px;
+	height: 150px;
+	border-bottom: 1px dotted #b1b1b1;
+	padding: 25px 0px 25px 10px;
+}
+.wrapper .content .right .text2 .textbar{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	color:#464646;
+}
+.wrapper .content .right .text3{
+	width: 600px;
+	height: 120px;
+	border-bottom: 1px dotted #b1b1b1;
+}
+.wrapper .content .right .text3 .bar{
+	width: 275px;
+	margin: 40px 0px 0px 25px;
+}
+.wrapper .content .right .text3 .bar .text{
+	width: 85px;
+	height: 30px;
+	padding-right: 15px;
+	line-height: 30px;
+	text-align: right;
+}
+.wrapper .content .right .text3 .bar input{
+	width: 156px;
+	height: 26px;
+	line-height: 26px;
+}
+.wrapper .content .right .text4{
+	width: 600px;
+}
+.wrapper .content .right .text4 .btn1{
+	width: 130px;
+	height: 30px;
+	background-color: #f2914a;
+	color:#fff;
+	line-height: 30px;
+	text-align: center;
+	margin:0 auto;
+	margin-top: 30px;
+	cursor: pointer;
+}

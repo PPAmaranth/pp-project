@@ -1,0 +1,31 @@
+.wrapper .top{
+	width: 100%;
+	height: 65px;
+	background-color: #fff;
+}
+.wrapper .top .top1{
+	margin-left: 162px;
+	width: 216px;
+	height: 65px;
+	background-image: url(../image/top/top1.png);
+}
+.wrapper .top .top2{
+	margin-right: 232px;
+	width: 100px;
+	height: 65px;
+	background-image: url(../image/top/top2.png);
+}
+.wrapper .top .top3{
+	margin-top: 29px;
+	margin-right: 100px;
+	width: 47px;
+	height: 18px;
+	background-image: url(../image/top/top3.png);
+	cursor: pointer;
+}
+.wrapper .bottom{
+	text-align: center;
+	color: #6e6e6e;
+	font-size: 12px;
+	line-height: 20px;
+}

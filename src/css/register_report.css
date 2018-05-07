@@ -1,0 +1,71 @@
+.wrapper .content_wrapper .content .register_report .tab_top input{
+    width: 128px;
+    height: 24px;
+    position: absolute;
+    left: 230px;
+    top: 12px;
+}
+.wrapper .content_wrapper .content .register_report .tab_top .btn{
+    width: 50px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #a1a1a1;
+    cursor: pointer;
+}
+.wrapper .content_wrapper .content .register_report .tab_top .reflash{
+    position: absolute;
+    left: 400px;
+    top: 12px;
+}
+.wrapper .content_wrapper .content .register_report .tab_top .search{
+    position: absolute;
+    left: 460px;
+    top: 12px;
+}
+.wrapper .content_wrapper .content .register_report .tab_top .select_text{
+    position: absolute;
+    left: 560px;
+    font-size: 14px;
+    top: 14px;
+}
+.wrapper .content_wrapper .content .register_report .tab_top select{
+    position: absolute;
+    left: 605px;
+    top: 14px;
+}
+.wrapper .content_wrapper .content .register_report .table{
+    width: 1031px;
+    position: absolute;
+    top: 47px;
+    left: -1px;
+}
+.wrapper .content_wrapper .content .register_report .table table{
+    border-collapse:collapse;
+}
+.wrapper .content_wrapper .content .register_report .table table tr{
+    border-bottom: 1px solid #edebeb;
+}
+.wrapper .content_wrapper .content .register_report .table table tbody tr:hover{
+    background-color: #87ceeb;
+    border-bottom: 1px solid #87ceeb;
+    cursor: pointer;
+}
+.wrapper .content_wrapper .content .register_report .table table tr td{
+    height: 28px;
+    text-align: center;
+}
+.wrapper .content_wrapper .content .register_report .table table tr td span{
+    display:block;
+    height: 27px;
+    font-size: 12px;
+    line-height: 27px;
+    text-align: center;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.wrapper .content_wrapper .content .register_report .table table .bg{
+    background-color: #edebeb;
+}
