@@ -1,10 +1,10 @@
 <template>
-	<div class="header_container"></div>
+	<div class="footer_container"></div>
 </template>
 
 <script>
 export default {
-  name: 'sd-top',
+	name: 'sd-footer',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
@@ -15,12 +15,15 @@ export default {
 </script>
 <style lang="less">
 	@import '../style/mixin';
-	.header_container{
+	.footer_container{
 		background-color: @red;
-		height: 90px;
+		width:100%;
+		height: 30px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-left: 20px;
+		position:fixed;
+		bottom:0px;
+		left:0px;
 	}
 </style>

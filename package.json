@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "element-ui": "^2.3.6",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
     "stylish": "^1.0.0",
     "transform-runtime": "0.0.0",
     "vue": "^2.5.16",
