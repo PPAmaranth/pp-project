@@ -1,7 +1,7 @@
 <template>
 	<div class="nav_container">
 		<div class="menu">
-			<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" :active-text-color="activeColor" router menu-trigger="hover">
+			<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" :active-text-color="activeColor" menu-trigger="hover">
 			  <el-menu-item :index="erp_nav.erpmain.url">{{erp_nav.erpmain.name}}</el-menu-item>
 				<el-submenu index="2">
 			    <template slot="title">{{erp_nav.nowpage}}</template>
@@ -59,7 +59,7 @@ export default {
 	},
     methods: {
       handleSelect(key, keyPath) {
-
+      	this.$parent.nowcomponent = key;
       }
     }
 }
